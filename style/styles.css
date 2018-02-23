@@ -1,0 +1,39 @@
+.frontpage-header-banner {
+  background-image: url("http://www.dentalnord.dk/files/gallery/31.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+}
+
+.frontpage-header-banner h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.frontpage-header-text {
+  padding-top: 250px;
+  padding-left: 15px;
+  width: 50%;
+}
+.frontpage-header-text .btn {
+  background-color: rgba(46, 204, 113,1.0);
+  font-weight: 600;
+  color: white;
+}
+
+.purpletint {
+  background-color: rgba(52, 31, 151, 0.8);
+  height: 100%;
+}
+
+.global-padding {
+
+}
+
+/* On mobile */
+@media only screen and (max-width: 768px) {
+  .frontpage-header-text {
+    width: 100%;
+  }
+}
