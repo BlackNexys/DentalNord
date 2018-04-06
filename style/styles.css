@@ -27,6 +27,28 @@
   height: 100%;
 }
 
+.navibar-custom {
+  width:  100%;
+}
+
+.navibar-container {
+  display: flex;
+  flex-direction: row;
+}
+.navibar-right{
+  flex-basis: 10%;
+}
+.navibar-left{
+  flex-basis: 90%;
+}
+.navibar-left-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 100%;
+}
+
 .global-padding {
 
 }
